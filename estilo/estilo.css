@@ -1,0 +1,80 @@
+*{
+    text-align: justify;
+    max-width: 1380px;
+}
+h6{
+    color: #ccc;
+}
+body{
+    background: #e6e6e6;
+}
+header{
+    background: navy;
+    margin: 0;
+    text-align: center;
+}
+#logo{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+nav ul{
+    margin: 0;
+    list-style: none;
+    font-size: 1.4em;
+}
+nav ul li{
+    display: inline;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    padding-top: 10px;
+}
+nav ul li a:hover{
+    background: white;
+}
+
+article{
+    margin: 10px auto;
+    border-radius: 15px;
+    padding-top: 20px;
+    background: white
+}
+
+footer{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#tamanho{
+    width: 60px;
+}
+#tamanho2{
+    width: 260px;
+}
+#text-personalizado{
+    color:white;
+}
+#text-personalizado:hover{
+    color:gray;
+}
+p:first-of-type{
+    text-indent: 2.5em;
+}
+
+.projetos img{
+    width: 100%;
+}
+
+#noticia{
+    background: url(/imagens/Projetos/noticia-fundo.png) repeat-x;
+}
+
+#museu{
+    background: url(/imagens/Projetos/Museu-fundo.png) repeat-x;
+}
