@@ -78,3 +78,15 @@ p:first-of-type{
 #museu{
     background: url(/imagens/Projetos/Museu-fundo.png) repeat-x;
 }
+#face{
+    color: darkblue;
+}
+#insta{
+    color: rebeccapurple;
+}
+#git{
+    color: black
+}
+#email{
+    color: red   
+}
