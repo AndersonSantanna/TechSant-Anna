@@ -50,78 +50,79 @@
 				<section class="row">
                     <ol class="breadcrumb ">
                         <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a href="">Projetos</a></li>
+                        <li class="breadcrumb-item"><a href="../1.html">Projetos</a></li>
                         <li class="breadcrumb-item active">WhatsApp</li>
                     </ol>
-                    <h1 class="display-3  border-bottom col-12">Projetos</h1>
+                    <h1 class="display-3 border-bottom col-12">Projetos</h1>
                     <!--Card Deck-->
                     <div class="card-deck mt-2" >
                         <!--WhatsApp-->
-                        <div class="card ">
-                            <img src="/imagens/Projetos/whatsapp.png" height="600px" width="100%" alt="">
+                        <div class="card " id="teste">
+                            <img src="/imagens/Projetos/whatsapp.png"  width="100%" alt="">
                             <div class="card-body">
                                 <h4 class="card-title">WhatsApp</h4>
                                 <h6 class="card-subtitle">App Android</h6>
                                 <p class="card-text lead">
-                                    O Se Organizze é um app android que foi desemvolvido em Java, que é um clone do app Organizze ajuda qualquer pessoa com seu controle financeiro
-                                    com ele fica mais fácil para quem quer guarda mais dinheiro, economizar e controla seus gastos, tudo isso em app.
+                                    O whatsapp despensa apresentações, hoje é um dos apps mais baixado do mundo e o app de mensagem mais conhecido na atualidade.
+                                    Durante o curso de Android na udemy aprendi a fazer um clone do WhatsApp, com ele você conegue mandar mensagem, utilizo o firebase como seu banco de dados.
                                 </p>
                                 <p class="lead">
-                                    Essa é sua tela inicial, um slide que faz a apresendaçãos dos seus benéficios que o úsuario vai ganhar ao utiliza-lo.
-                                    sua ultima tela é onde o úsuario vai acessar sua conta ou se cadastra-se.
+                                    Essa é sua tela inicial, ao abrir o app pela primeira vez ele pede permissões para o úsuario, para que possa prosseguir com sua utilizaçãom caso contrario ele encerra o app.
+                                    Ao clicar em permitir o usuario cadastrado pode colocar seu numero e clicar em "Entrar".
                                 </p>
-                                
-                                <img src="/imagens/ScreenShot/WhatsApp/Screenshot_1539264588.png" width="19%" alt="">
-                                <img src="/imagens/ScreenShot/WhatsApp/Screenshot_1539264626.png" width="19%" alt="">
-                                
+                                <div class="container">
+                                    <div class="row">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0 offset-lg-2" src="/imagens/ScreenShot/WhatsApp/Screenshot_20181012-134924.png" height="30%" alt="">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0" src="/imagens/ScreenShot/WhatsApp/Screenshot_1539264588.png" height="30%" alt="">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0" src="/imagens/ScreenShot/WhatsApp/Screenshot_1539264626.png" height="30%" alt="">
+                                    </div>
+                                </div>
                                 <p class="lead mt-5">
-                                    Caso o usuario escolha se cadastrar, basta digitar seu nome, email e senha. A senha não pode 
-                                    ser muito fraca, ele reportar um aviso caso o úsuario faça isso, um senha razoavel tem que ter no minimo 6 caracteres.
-                                    Caso esteja tudo certo ele vai para tela principal do app logado. Pode se reparar que temos uma mensagem de saudação
-                                    com o nome do úsuario, em baixo seu saldo geral. Pouco mais a baixo temos o mes e ano no qual o usuario sempre vai ser 
-                                    direcionado para o mês atual que ele está no dia, mas ele pode ver os outros meses normalmente, basta clicar em uma 
-                                    das setas que irão avançar para os meses passados ou futuros dando maior controle. No canto inferior direito, temos um botão
-                                    flutuante que ja falaremos dele. 
+                                    Vamos olhar a tela de cadastro, basta digitar seu nome e numero de celular. Os campos tem verificadores para que o úsuario preencha
+                                    seus dados de forma correta, se deixar um campo em branco o app mostrará uma mensagem ou mesmo se ele digitar um numero a menos, esse 
+                                    verificador mostrará uma mensagem para o úsuario para que corrija. Se tudo estiver okay, o app irá te enviar uma mensagem com um codigo 
+                                    de verificação para ter certeza de que é o seu celular e em seguida te direcionar para tela principal, esse processo é bem rápido álias.
                                 </p>
-                                <div style="margin-left: 20%; ">
-                                    <img src="/imagens/ScreenShot/Se Organize/Screenshot_20181011-105617.png" width="25%" alt="">
-                                    <img src="/imagens/ScreenShot/Se Organize/Screenshot_20181011-105703.png" width="25%" alt="">
-                                    <img src="/imagens/ScreenShot/Se Organize/Screenshot_20181011-105718.png" width="25%" alt="">
+                                <div class="container">
+                                    <div class="row">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0 offset-lg-3 offset-md-2" src="/imagens/ScreenShot/WhatsApp/Screenshot_20181012-134933.png" height="30%" alt="">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0" src="/imagens/ScreenShot/WhatsApp/Screenshot_20181012-135015.png" height="30%" alt="">
+                                    </div>
                                 </div>
                                 <p class="mt-5 mb-4 lead">
-                                    Esse botao flutuante ao qual me referir é um menu do app, ao clicar nele ele gerar mais botões os quais o úsuario possa escolher
-                                    uma atividade,  como receita, despesa e relatorio. Se clicar em menu o menu esconde todos os botões e volta pra sua forma original. 
-                                    Caso clique em "Receita" o usuario é direcionado para tela de "Receita", nessa Tela serve para o úsuario anotar todas seus ganhos naquele 
-                                    dia, em exemlo que damos o úsuario fictício colocou que ganhou um salario de 5 mil reais no dia 11/10/2018, ao clicar em confirmar 
-                                    pode se notar na proxima imagem que ele retorna para tela principal mas tem um saldo o qual ele digitou na tela anterior, e aparece 
-                                    uma lista com título, categoria, data e valor, no qual ele seus ganhos referente aquele mês.
+                                    Na tela principal temos duas abas, uma de conversa outra de contatos como só cadastrei o meu numero e o da minha mãe só vai aparecer o contato dela.
                                 </p>
-                                <div style="margin-left: 13%">
-                                    <img class="" src="/imagens/ScreenShot/Se Organize/Screenshot_20181011-105726.png" width="21%" alt="">
-                                    <img class="" src="/imagens/ScreenShot/Se Organize/Screenshot_20181011-105736.png" width="21%" alt="">
-                                    <img class="" src="/imagens/ScreenShot/Se Organize/Screenshot_20181011-105803.png" width="21%" alt="">
-                                    <img class="" src="/imagens/ScreenShot/Se Organize/Screenshot_20181011-105812.png" width="21%" alt="">
+                                <div class="container">
+                                    <div class="row">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0 offset-lg-3 offset-md-2" src="/imagens/ScreenShot/WhatsApp/Screenshot_20181011-103223.png" height="30%" alt="">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0" src="/imagens/ScreenShot/WhatsApp/201810111461521935.jpg" height="30%" alt="">
+                                    </div>
                                 </div>
                                 <p class="mt-5 mb-4 lead">
-                                    Agora para anotar suas despesas, clique no menu em seguinte em "Despesa". Abrira uma tela vermelha bem parecida com a tela de receita,
-                                    onde vai anotar o valor, data, categoria e título. Coloquei um exemplo, no caso o úsuario tem que pagar seu funcionario com 2500 reias, 
-                                    ao clicar em confirmar abaixo, ele volta para tela principal, mas com o saldo descontado do valor da despesa, nota-se que aparece o salario
-                                    mensal do úsuario e salario mensal dos funcionarios dele, se clicar no proximo mês não aparecerá essas informções pois não são referente ao
-                                    mes de novembro, como colocamos no mês de outubro aparece as informações
+                                    Ao clicar nas conversas ou no úsuario a tela de chat abrirá e nela é bem parecida com o do WhatsApp pode mandar mensagem normal para o contato.
                                 </p>
-                                <div style="margin-left: 20%; ">
-                                    <img class="" src="/imagens/ScreenShot/Se Organize/Screenshot_20181011-105812.png" width="25%" alt="">
-                                    <img class="" src="/imagens/ScreenShot/Se Organize/Screenshot_20181011-105921.png" width="25%" alt="">
-                                    <img class="" src="/imagens/ScreenShot/Se Organize/Screenshot_20181011-105926.png" width="25%" alt="">
+                                <div class="container">
+                                    <div class="row">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0 offset-lg-3 offset-md-2" src="/imagens/ScreenShot/WhatsApp/Screenshot_20181011-103835.png" height="30%" alt="">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0" src="/imagens/ScreenShot/WhatsApp/Screenshot_20181011-103900.png" height="30%" alt="">
+                                    </div>
                                 </div>
                                 <p class="mt-5 mb-4 lead">
-                                    Ao clicar em "Relatorio" não abrirá uma tela e sim uma mensagem que diz "Em desenvolvimento..." que será uma tela nova para proxima atualização
-                                    do app.
+                                    Voltando a tela principal, no canto direito tem três ponto, ao clicar nele abrirá as seguintes opções: "configurações" e "sair", se clicar em "sair"
+                                    isso deslogará o úsuario voltando pra aquela tela do começo. Ao clicar em "configurações" pela para primeira vez ele pedi algumas permissões, uma para acessar
+                                    seus arquivos de fotos para poder configurar uma foto no seu perfil, e poder tirar foto com a sua câmera, assim pode colocar uma foto na hora. também pode alterar o nome salvo ali. 
                                 </p>
-                                <div style="margin-left: 40%;">
-                                    <img class="" src="/imagens/ScreenShot/Se Organize/Screenshot_20181011-105930.png" width="33%" alt="">
+                                <div class="container">
+                                    <div class="row">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0" src="/imagens/ScreenShot/WhatsApp/Screenshot_20181011-103223.png" height="20%" alt="">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0" src="/imagens/ScreenShot/WhatsApp/Screenshot_20181012-135028.png" height="20%" alt="">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0" src="/imagens/ScreenShot/WhatsApp/Screenshot_20181012-135032.png" height="20%" alt="">
+                                        <img class="col-8 col-sm-12 col-md-4 col-lg-3 mt-3 offset-2 offset-sm-0" src="/imagens/ScreenShot/WhatsApp/Screenshot_20181011-103242.png" height="20%" alt="">
+                                    </div>
                                 </div>
-
+                                <p class="mt-5 lead">
+                                    Para ver o codigo fonte pode ir no meu github, basta clicar <a href="https://github.com/AndersonSantanna/WhatsApp" class="btn btn-outline-primary">Aqui</a>
+                                </p>
                             </div>
                         </div>
                         
