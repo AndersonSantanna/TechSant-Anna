@@ -1,12 +1,13 @@
 *{
     text-align: justify;
-    max-width: 1380px;
+    
 }
 h6{
     color: #ccc;
 }
 body{
     background: #e6e6e6;
+    
 }
 header{
     background: navy;
@@ -40,16 +41,24 @@ nav ul li a:hover{
 }
 
 article{
-    margin: 10px auto;
+    margin-top: 10px;
     border-radius: 15px;
     padding-top: 20px;
     background: whitesmoke
 }
-
+/* Rodapé
+*/
 footer{
-    width: 80%;
-    margin: 0 auto;
+    background: navy;
+    color: whitesmoke;
     text-align: center;
+}
+footer ul li a {
+    color: whitesmoke;
+}
+.center{
+    text-align: center;
+    margin-top: 15px;
 }
 #tamanho{
     width: 60px;
@@ -69,14 +78,18 @@ p:first-of-type{
 
 /*Fundo do card noticia*/
 #noticia{
-    background: url(/imagens/Projetos/noticia-fundo.png) repeat-x;
+    background: url(/imagens/Projetos/noticias/noticia-fundo.png) repeat-x;
 }
 
 #museu{
-    background: url(/imagens/Projetos/Museu-fundo.png) repeat-x;
+    background: url(/imagens/Projetos/museu-nacional/museu.jpeg) repeat-x;
 }
 
 /*Icones*/
+#face-f{
+    color: whitesmoke;
+
+}
 #face{
     color: darkblue;
 }
@@ -88,16 +101,3 @@ p:first-of-type{
 }
 
 
-/*ScreenShot lado a lado */
-#one-img{
-    margin-left: 40%;
-}
-#two-img{
-    margin-left: 30%
-}
-#three-img{
-    margin-left: 20%;
-}
-#four-img{
-    margin-left: 13%
-}
