@@ -24,8 +24,8 @@
 	<body>
 		<main>
 			<header>
-				<nav class="navbar navbar-expand-lg navbar-light ">	
-					<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-transparente ">	
+					<div class="container ">
 						<a href="/index.html" class="navbar-brand">
 							<img src="/imagens/Logo/emblema.png" alt="" id="tamanho" >
 							<img src="/imagens/Logo/nome.png" alt="" id="tamanho2">
@@ -36,48 +36,51 @@
 						</button>
 						<div class="collapse navbar-collapse" id="menu">
 							<ul class="navbar-nav ml-auto">
-								<li class="navbar-item"><a class="nav-link" id="text-personalizado" href="../about/sobre.html">Sobre</a></li>
-								<li class="navbar-item"><a class="nav-link " id="text-personalizado" href="1.html">Projetos</a></li>
-								<li class="navbar-item"><a class="nav-link" id="text-personalizado" href="">APIs</a></li>
-								<li class="navbar-item"><a class="nav-link" id="text-personalizado" href="">Palestras</a></li>
+								<li class="navbar-item"><a class="nav-link" id="text-personalizado" href="/index.html"> Home</a></li>
+								<li class="navbar-item"><a class="nav-link" id="text-personalizado" href=""> Sobre</a></li>
+								<li class="navbar-item"><a class="nav-link " id="text-personalizado" href="/pages/Projects/1.html">Projetos</a></li>
 								<li class="navbar-item"><a class="nav-link" id="text-personalizado" href="/pages/Contats/contatos.html">Contato</a></li>
 							</ul>
 						</div>
 					</div>
 				</nav>
 			</header>
-			<article class="container">
+			<article class="container margin">
 				<section class="row">
                     <ol class="breadcrumb ">
                         <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
                         <li class="breadcrumb-item active">Projetos</li>
                     </ol>
                     <h1 class="display-3  border-bottom col-12">Projetos</h1>
-                    <!--Card Deck-->
-                    <div class="card-deck mt-2" >
+					
+					<!--Card Deck-->
+                    <div class="card-deck  mt-1" >
                         <!--Anna Bella-->
-                        <div class="card">
-                            <a href="WebSite/Anna-Bela.html"><img src="/imagens/Projetos/AnnaBella/AnnaBella.png" width="100%" alt=""></a>
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="WebSite/Anna-Bela.html" class="text-dark">Anna Bella</a></h4>
-                                <h6 class="card-subtitle">WebSite</h6>
-                                <p class="card-text">Anna Bella é uma modelo fictícia, esse site é um template para quem quiser fazer um web site proprio para modelos(as)...</p>
-                                <a class="btn btn-outline-primary" href="WebSite/Anna-Bela.html">Leia mais</a>
-                            </div>
-                        </div>
-                        <!--Finans-->
-                        <div class="card ">
-                                <a href="WebSite/finans.html"><img src="/imagens/Projetos/finans/finans.png"  width="100%" alt=""></a>
-                            <div class="card-body">
-                                <h4 class="card-title"><a href="WebSite/Anna-Bela.html" class="text-dark">Finans</a></h4>
-                                <h6 class="card-subtitle">WebSite</h6>
-                                <p class="card-text ">O Finans é um website que bem parecido com o site do Organizze, o qual eu fiz um clone do app para Android...</p>
-                                <a class="btn btn-outline-primary" href="WebSite/finans.html">Leia mais</a>
-                            </div>
-                        </div>
+                        
+						<div class="card mt-1" >
+							<a href="WebSite/Anna-Bela.html"><img src="/imagens/Projetos/AnnaBella/AnnaBella.png" width="100%" alt=""></a>
+							<div class="card-body">
+								<h4 class="card-title"><a href="WebSite/Anna-Bela.html" class="text-dark">Anna Bella</a></h4>
+								<h6 class="card-subtitle">WebSite</h6>
+								<p class="card-text">Anna Bella é uma modelo fictícia, esse site é um template para quem quiser fazer um web site proprio para modelos(as)...</p>
+								<a class="btn btn-outline-primary" href="WebSite/Anna-Bela.html">Leia mais</a>
+							</div>
+						</div>
+
+						<!--Finans-->
+						<div class="card " >
+								<a href="WebSite/finans.html"><img src="/imagens/Projetos/finans/finans.png"  width="100%" alt=""></a>
+							<div class="card-body">
+								<h4 class="card-title"><a href="WebSite/Anna-Bela.html" class="text-dark">Finans</a></h4>
+								<h6 class="card-subtitle">WebSite</h6>
+								<p class="card-text ">O Finans é um website que bem parecido com o site do Organizze, o qual eu fiz um clone do app para Android...</p>
+								<a class="btn btn-outline-primary" href="WebSite/finans.html">Leia mais</a>
+							</div>
+						</div>
+					 
                         <!--Chale Hotel-->
-                        <div class="card ">
-                            <a href="WebSite/Chale-hotel.html"><img src="/imagens/Projetos/chale/Chale.png"  width="100%" alt=""></a>
+                        <div class="card col-lg-4 col-md-6 col-sm-6 mt-1 ">
+                            <a href="WebSite/Chale-hotel.html"><img src="/imagens/Projetos/chale/Chale.png" width="100%" alt=""></a>
                             <div class="card-body">
                                 <h4 class="card-title"><a href="WebSite/Chale-hotel.html" class="text-dark">Chalé Hotel</a></h4>
                                 <h6 class="card-subtitle">WebSite</h6>
@@ -86,81 +89,8 @@
                             </div>
                         </div>
                     </div>
-                    <!--MODELO DE CARDS-->
-                    <!--<div class="card-deck mt-2" >
-                        <!--Rick and morty
-                        <div class="card ">
-                            <div id="noticia">
-                            <img src="/imagens/Projetos/rick-and-morty-season-3.jpg" width="100%" alt="">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Rick and Morty</h4>
-                                <h6 class="card-subtitle">App Android</h6>
-                                <p class="card-text ">Um dos desenhos americanos mais famosos da atualidade é Rick and Morty, esse app surge como se fosse da netflix junto com...</p>
-                                <a class="btn btn-outline-primary" href="">Leia mais</a>
-                            </div>
-                        </div>
-                        <!--Aprenda ingles
-                        <div class="card ">
-                            <div id="noticia">
-                            <img src="/imagens/Projetos/ingles.jpg"  width="100%" alt="">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Aprenda Inglês</h4>
-                                <h6 class="card-subtitle">App Android</h6>
-                                <p class="card-text ">Um dos desenhos americanos mais famosos da atualidade é Rick and Morty, esse app surge como se fosse da netflix junto com...</p>
-                                <a class="btn btn-outline-primary" href="">Leia mais</a>
-                            </div>
-                        </div>
-                        <!--ATM - Consultoria
-                        <div class="card ">
-                            <div id="noticia">
-                            <img src="/imagens/Projetos/atm-consultoria.png" height="150px" width="100%" alt="">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Rick and Morty</h4>
-                                <h6 class="card-subtitle">App Android</h6>
-                                <p class="card-text">Um dos desenhos americanos mais famosos da atualidade é Rick and Morty, esse app surge como se fosse da netflix junto com...</p>
-                                <a class="btn btn-outline-primary" href="">Leia mais</a>
-                            </div>
-                        </div>
-                    </div>
+                          
 
-                    <div class="card-deck mt-2 " >
-                        <!--TecBlog
-                        <div class="card">
-                            <img src="/imagens/Projetos/TecBlog.png" width="100%" alt="">
-                            <div class="card-body">
-                                <h4 class="card-title">TecBlog</h4>
-                                <h6 class="card-subtitle">WebSite</h6>
-                                <p class="card-text ">O TecBlog é website de um blog de tecnologia criado durante as aulas de desenvolvimento web...</p>
-                                <a class="btn btn-outline-primary" href="">Leia mais</a>
-                            </div>
-                        </div>
-                        <!--Museu
-                        <div class="card">
-                            <img src="/imagens/Projetos/museu.jpeg" id="museu"  width="100%" alt="">
-                            <div class="card-body">
-                                <h4 class="card-title">Museu Nacional</h4>
-                                <h6 class="card-subtitle">WebSite</h6>
-                                <p class="card-text ">O TecBlog é website de um blog de tecnologia criado durante as aulas de desenvolvimento web...</p>
-                                <a class="btn btn-outline-primary" href="">Leia mais</a>
-                            </div>
-                        </div>
-                        <!--Noticia
-                        <div class="card ">
-                            <div id="noticia">
-                            <img src="/imagens/Projetos/noticia-logo.png" class="ml-5" width="70%"  width="100%" alt="">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Noticias na Cidade</h4>
-                                <h6 class="card-subtitle">WebSite</h6>
-                                <p class="card-text ">O whatsapp despensa apresentações, hoje é um dos apps mais baixado do mundo e o app de mensagem mais conhecido na atualidade...</p>
-                                <a class="btn btn-outline-primary" href="">Leia mais</a>
-                            </div>
-                        </div>
-                    </div>-->
-                    
                     <ul class="pagination ml-auto mr-auto mt-5">
                         <li class="page-item ">
                             <a href="1.html" class="page-link">Anterior</a>
@@ -182,53 +112,8 @@
                 </section>
             </article>
             
-			<footer>
-				<div class="container">
-					<div class="row">
-						<div class="navbar-brand col-lg-3 col-md-3 col-sm-5 col-10">
-							<a href="">
-								<img class="img-fluid" src="/imagens/Logo/emblema.png" width="30%" alt="">
-								<img class="img-fluid" src="/imagens/Logo/nome.png" width="80%" alt="">
-							</a> 
-						</div>
-						<div class="col-3 col-sm-3 col-md-2 col-lg-2 offset-md-0 offset-lg-1 mt-3">
-							<h4>Company</h4>
-							<ul class="navbar-nav">
-								<li><a href="">Sobre</a></li>
-								<li><a href="">Contato</a></li>
-							</ul>
-						</div>
-						<div class="col-3 col-sm-3 col-md-2 col-lg-2 mt-3">
-							<h4>Projects</h4>
-							<ul class="navbar-nav">
-								<li><a href="">Android</a></li>
-								<li><a href="">Desktop</a></li>
-								<li><a href="">Websites</a></li>
-							</ul>
-						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-3 mt-3">
-							<h4>Redes Sociais</h4>
-							<ul class="navbar-nav">
-								<li>
-									<a href="" class="btn">
-										<i id="face-f" class="fab fa-facebook-f fa-2x"></i>
-									</a>
-									<a href="https://www.instagram.com/anderson.sant_anna/?hl=pt-br" target="_blank" class="btn">
-										<i id="insta" class="fab fa-instagram fa-2x"></i>
-									</a>
-									<a href="https://github.com/AndersonSantanna " class="btn" target="_blank">
-										<i id="git" class="fab fa-github fa-2x"></i>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-		
-				<div class="center">
-					&copy; Todos direitos autorais preservados por Anderson Sant'Anna
-				</div>
-			</footer>
+			<!--footer-->
+			<object class="object" type="text/html" width="100%" data="/footer/footer.html"></object>
         </main>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

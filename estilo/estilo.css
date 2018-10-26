@@ -1,6 +1,5 @@
 *{
     text-align: justify;
-    
 }
 h6{
     color: #ccc;
@@ -19,7 +18,9 @@ header{
     margin: 0 auto;
     margin-bottom: 5px;
 }
-
+nav.navbar-transparente{
+    background: rgba(0, 0, 128, 0.97);
+}
 nav ul{
     margin: 0;
     list-style: none;
@@ -46,6 +47,23 @@ article{
     padding-top: 20px;
     background: whitesmoke
 }
+
+.faixa{
+    padding: 50px;
+    background: black;
+    color: whitesmoke
+}
+.margin{
+    margin-top: 100px;
+}
+.tecblog{
+    background-color: #f7b600;
+    width: 100%;
+    height: 280px;
+    font-weight: 600;
+    padding-top: 70px;
+    padding-left: 20%
+}
 /* Rodapé
 */
 footer{
@@ -60,12 +78,18 @@ footer ul li a {
     text-align: center;
     margin-top: 15px;
 }
+.object{
+    margin-top: 20px;
+    margin-bottom: -5px
+}
 #tamanho{
     width: 60px;
 }
 #tamanho2{
     width: 260px;
 }
+/* textos
+*/
 #text-personalizado{
     color:white;
 }
@@ -75,7 +99,15 @@ footer ul li a {
 p:first-of-type{
     text-indent: 2.5em;
 }
-
+.text-center{
+    text-align: center;
+}
+.tab{
+    text-indent: 2.5em;
+}
+.text-tec{
+    color: #4e4e4e;
+}
 /*Fundo do card noticia*/
 #noticia{
     background: url(/imagens/Projetos/noticias/noticia-fundo.png) repeat-x;
@@ -100,4 +132,70 @@ p:first-of-type{
     color: black
 }
 
+/*Botao customizado
+*/
+.btn-custom{
+    color: navy;
+    margin-bottom: 10px;
+    font-weight: 500;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 15px
+}
+.btn-azul{
+    border: 3px solid navy;
+}
 
+/**/
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .carousel-item{
+        margin-top: 133px;
+    }
+    .object{
+        height: 390px;
+    }
+}
+
+/* Small devices (landscape phones,576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .carousel-item{
+        margin-top: 93px;
+    }
+    .card{
+        width: 40%;
+    }
+    .object{
+        height: 260px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .carousel-item{
+        margin-top: 90px;
+    }
+    .object{
+        height: 188px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .carousel-item{
+        margin-top: 50px;
+    }
+    .object{
+        height: 195px;
+    }
+}
+
+ /* Extra large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1200px) { 
+    .object{
+        height: 160px;
+    }
+}
