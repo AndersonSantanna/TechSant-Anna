@@ -116,7 +116,9 @@ p:first-of-type{
 #museu{
     background: url(/imagens/Projetos/museu-nacional/museu.jpeg) repeat-x;
 }
-
+.mata-mosquito{
+    background: url(/imagens/Projetos/Mata-Mosquito/bg.jpg)
+}
 /*Icones*/
 #face-f{
     color: whitesmoke;
